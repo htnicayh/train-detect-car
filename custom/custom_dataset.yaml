@@ -2,8 +2,11 @@
 #  .
 #  ├── custom
 #  └── yolov5
-train: ../custom/images_labels/images/train/
-val: ../custom/images_labels/images/valid/
+train: ../custom/images_labels/images/test-train/
+val: ../custom/images_labels/images/test-valid/
+
+# train: ../custom/images_labels/images/train/
+# val: ../custom/images_labels/images/valid/
 # number of classes
 nc: 1
 # class names
